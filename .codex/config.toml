@@ -1,0 +1,4 @@
+[mcp_servers.tayoribod]
+command = "npm"
+args = ["run", "mcp:server"]
+env = { TAYORIBOD_API_BASE_URL = "http://127.0.0.1:3006" }

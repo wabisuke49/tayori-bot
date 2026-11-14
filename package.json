@@ -1,0 +1,33 @@
+{
+  "name": "tayori-bod",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev -p 3006",
+    "evaluate:faq-selection": "tsx scripts/evaluate-faq-selection.ts",
+    "mcp:server": "tsx mcp/server.ts",
+    "verify:faq-search": "tsx scripts/verify-faq-search.ts",
+    "start": "next start -p 3006",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "19.3.0",
+    "dotenv": "^18.0.9",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "next": "^16.4.3",
+    "openai": "^6.49.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  }
+}
